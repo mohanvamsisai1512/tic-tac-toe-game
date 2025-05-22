@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe-game</title> 
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/essenstial-ultimate-ui/64/tic_tac_toe-1024.png" type="image/png">
+
+</head>
+<body>
+    <div class="main-body">
+        <h1 class="main-heading">Tic-Tac-Toe</h1> 
+        <div class="scorebox"> 
+            <div class="scoreboard">      
+                <div>
+                    <h1>Player <span class="x">X</span></h1>
+                    <hr style="border: 1px solid #000;margin:2px 0px;"/>
+                    <h1 style="margin-top:5px" id="scorex">0</h1> 
+                </div>  
+                <div style="width: 2px;  background-color: black;"></div>
+
+                <div>
+                    <h1>Player <span class="o">O</span></h1>
+                    <hr style="border: 1px solid #000;margin:2px 0px;"/>
+                    <h1 style="margin-top:5px" id="scoreo">0</h1> 
+                </div>
+            </div>
+        </div>
+        <div class="grid-body">
+            
+            <div class="grid-container">
+                <div class="grid-item-1" id="box1"></div> 
+                <div class="grid-item-4" id="box2"></div>
+                <div class="grid-item-3" id="box3"></div>
+                <div class="grid-item-4" id="box4"></div>
+                <div class="grid-item-4" id="box5"></div>
+                <div class="grid-item-4" id="box6"></div>
+                <div class="grid-item-7" id="box7"></div>
+                <div class="grid-item-4" id="box8"></div>
+                <div class="grid-item-9" id="box9"></div> 
+            </div>    
+        </div>   
+        <div class="button-main-container">
+            <div class='button-container'>  
+                <button style="background-color:#1F51FF" id="resetbtn">Reset</button> 
+                <button style="background-color:#FF3131" id="endgamebtn">End game</button>
+            </div>
+        </div>
+        
+    </div>  
+    
+    <script src="index.js"></script>  
+    <div id="popup-message" class="popup-message"></div>
+
+</body> 
+
+
+</html>
